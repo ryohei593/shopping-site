@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+
+.item_list h2,#SHOPPING_GUIDE h2{
+	background: transparent;
+}
+.item_list li{
+	width: 50%;
+}
+.guide_box{
+	width:100%;
+}
+
+
+/* step10 */
+#PICT_LIST{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+#PICT_LIST li{
+	width:20%;
+}
+#PICT_LIST li img{
+	border:2px solid #fff;
+}
+#MAIN_VIEW img{
+	border-bottom:3px solid #fff;
+}
+
+
+

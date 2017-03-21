@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+#SP_MENU{
+	display:none;
+}
+#PC_MENU{
+	display:block !important;/*優先*/
+}
+#LOGO img{
+	width:141px;
+}
+
+/* ヘッダ */
+header{
+	padding:20px 0 0 !important;/*優先*/
+}
+/* ナビ*/
+header ul{
+	float:right;
+	padding:17px 0 0;
+}
+header li{
+	display:inline-block;
+	font-weight: bold;
+	margin:0 4px;
+}
+header li,header li *{
+	vertical-align: bottom;
+}
+.social_link{
+	font-size:2.2rem !important;/*優先*/
+}
+#PC_MENU li span.sp_menu_txt{
+	display:none;
+}
+#PC_MENU li span.pc_menu_txt{
+	display:block;
+}
+
+/* レスポ */
+@media (max-width: 749px){
+	header ul{
+	padding:0;
+	}
+}
+
+/* フッタ */
+#PAGE_TOP{
+	text-align: right;
+}
+
+/* 検索*/
+#SEARCH_ENGINE label{
+	font-size:1.3rem;
+	font-weight:bold;
+	color:#887f69;
+}
