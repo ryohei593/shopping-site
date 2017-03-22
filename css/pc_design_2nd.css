@@ -10,6 +10,35 @@
 
 
 
+/* step10 */
+#PICT_LIST{
+	width:28%;
+	float:right;
+}
+#PICT_LIST li{
+	width:48%;
+	float:left;
+}
+
+
+/* 商品詳細 */　
+
+#PRODUCTS_BOX{
+	padding: 40px 5%;
+}
+
+#PRODUCTS_ID{
+	float:right;
+}
+
+#MAIN_VIEW{
+	width:72%;
+	float:left;
+}
+#MAIN_VIEW img{
+	border-right:1px solid #fff;
+}
+
 /* step10-2 */
 @media(max-width:952px){
 	#FORM_WRAPPER{
@@ -41,32 +70,6 @@
 	float:left;
 }
 
-
-
-
-/* step10 */
-#PICT_LIST{
-	width:28%;
-	float:right;
-}
-#PICT_LIST li{
-	width:48%;
-	float:left;
-}
-
-
 #PRODUCTS_BOX{
 	padding: 40px 5%;
-}
-
-#PRODUCTS_ID{
-	float:right;
-}
-
-#MAIN_VIEW{
-	width:72%;
-	float:left;
-}
-#MAIN_VIEW img{
-	border-right:1px solid #fff;
 }

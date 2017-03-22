@@ -55,3 +55,7 @@ header li,header li *{
 	font-weight:bold;
 	color:#887f69;
 }
+
+#sp_img{
+	display:none;
+}

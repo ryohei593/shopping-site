@@ -87,3 +87,16 @@ footer li{
 .more_button{
 	text-align:left;
 }
+
+#pc_img{
+	display:none;
+}
+#sp_img{
+	margin:15px auto;
+	font-size:1.6rem;
+	text-align:center;
+	color: #8a8168;
+	font-weight: bold;
+}
+
+}
