@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-
 body{
 	background:#f9f8f6;
 }
@@ -17,21 +15,9 @@ a{
 a:hover{
 	color:#776d56;
 }
-
-
 form,h1,h2,h3,h4,dl,dt,dd,ul,li{
 	margin:0; padding:0;
 }
-
-
-
-/* フォント設定 */
-header li,#PAGE_TOP,footer small,.sans{
-		font-family: 'Open Sans', sans-serif !important;
-}
-
-
-
 /* クリアフィックス */
 .clearfix{ zoom:1; }
 .clearfix:after {
@@ -48,7 +34,7 @@ footer small{
 	text-align: center;
 	color:#b8b4ac;
 }
-#PAGE_TOP{
+:;					_TOP{
 	font-weight:bold;
 	padding:20px 0;
 }
@@ -128,9 +114,7 @@ input[type="image"]{
 .link_box h4:hover{
 	background:#b7b1a1 url(../images/top/next_icon.png) no-repeat 95% center;
 }
-.link_box h4.openlink{
-	background:#887f69 url(../images/top/down_icon.png) no-repeat 95% center;
-}
+
 .link_box ul{
 	display:none;
 }
@@ -168,21 +152,6 @@ input[type="image"]{
 	margin:20px auto 10px;
 	text-align: center;
 }
-.more_button a{
-	background-color:#8a8168;
-	-moz-border-radius:28px;
-	-webkit-border-radius:28px;
-	border-radius:28px;
-	display:inline-block;
-	cursor:pointer;
-	color:#fff;
-	font-size:1.3rem;
-	padding:5px 25px;
-	text-decoration:none;
-}
-.more_button a:hover {
-	background-color:#b9b3a4;
-}
 
 
 
@@ -194,10 +163,7 @@ input[type="image"]{
 	color: #8a8168;
 	font-weight: bold;
 }
-.item_list h2 span{
-	padding:0 10px;
-	background:#f9f8f6;
-}
+
 
 #NEW_ITEMS_LIST ul{
 	display: -webkit-flex;
@@ -255,11 +221,7 @@ input[type="image"]{
 	color: #8a8168;
 	font-weight: bold;
 }
-#SHOPPING_GUIDE h2 span{
-	
-	padding:0 10px;
-	background:#f9f8f6;
-}
+
 #GUIDE_WRAPPER{
 	display: -webkit-flex;
 	display: flex;

@@ -44,20 +44,9 @@
 	border: none;
 	margin-bottom:-10px;
 }
-#PC_MENU li span.pc_menu_txt{
-	display:none;
-}
-#PC_MENU li span.sp_menu_txt{
-	display:block;
-}
-#PC_MENU a{
-	display: block;
-	padding-bottom:10px;
-	color:#fff;
-}
-.social_link{
-	display: none;
-}
+
+
+
 /* PageTopボタンの設定 */
 #PAGE_TOP{
 	text-align: center;
@@ -99,4 +88,12 @@ footer li{
 	font-weight: bold;
 }
 
+}
+
+
+#menu {
+  cursor: pointer;
+}
+.sp_menu_toggle {
+  display: none;
 }

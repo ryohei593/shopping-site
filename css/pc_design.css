@@ -27,15 +27,6 @@ header li{
 header li,header li *{
 	vertical-align: bottom;
 }
-.social_link{
-	font-size:2.2rem !important;/*優先*/
-}
-#PC_MENU li span.sp_menu_txt{
-	display:none;
-}
-#PC_MENU li span.pc_menu_txt{
-	display:block;
-}
 
 /* レスポ */
 @media (max-width: 749px){
